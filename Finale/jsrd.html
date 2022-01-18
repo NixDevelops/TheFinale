@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="This is the final project built by NixDevelops regarding the capstone of Web Design for Everybody by University of Michigan">
+  <link rel="icon" href="https://files.fm/thumb_show.php?i=pnsxt67pz">
+  <link rel="stylesheet" href="Css/default.css">
+  <link rel="stylesheet" href="Css/header.css">
+  <link rel="stylesheet" href="Css/footer.css">
+  <link rel="stylesheet" href="Css/jsrd/jsrd.css">
+  <link rel="stylesheet" href="Css/jsrd/jsrd-mediaqs.css">
+  <!--Links related to fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Lobster&family=Quicksand:wght@500&family=The+Nautigal:wght@700&family=Vujahday+Script&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Quicksand:wght@500&display=swap" rel="stylesheet">
+  <!--Link related to animation-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <!--Link related to icons-->
+  <script src="https://kit.fontawesome.com/5d718a82e7.js" crossorigin="anonymous"></script>
+  <title>The Finale</title>
+</head>
+
+<body>
+
+  <header>
+    
+    
+    <div class="savior">
+
+    <h1 class="title">
+      <a href=""><span class="key" id="the">The Journey</span></a>
+    </h1>
+
+  </div>
+
+    <a href="#" class="hamburger">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </a>
+
+    <nav class="navboi">
+      <ul>
+       <li><a href="intro.html">Intro</a></li>
+       <li><a href="hc.html">HTML/CSS</a></li>
+       <li><a href="1st.html">First Child</a></li>
+       <li><a href="jsrd.html" class="active">JS/RD</a></li>
+       <li><a href="thx.html">Contact Me</a></li>
+      </ul>
+     </nav>
+
+  </header>
+
+  <main>
+
+
+    <section class="intro">
+
+      <div class="intro-text">
+
+        <h2><span class="legend">J</span>ava <span class="legend">S</span>cript <br id="br-rd"> <span class="legend">&</span> <br> <span class="legend">R</span>esponsive <span class="legend">D</span>esign</h2>
+
+      </div>
+
+      <div class="intro-imgs">
+
+        <img class="rd-img" src="https://files.fm/thumb_show.php?i=rm7b44ryx" alt="responsive design">
+        <img class="js-img"  src="https://files.fm/thumb_show.php?i=6sw85e75a" alt="javascript wallpaper">
+        <img class="code-img" src="https://files.fm/thumb_show.php?i=55gwzsvq2" alt="stylish code">
+
+      </div>
+
+    </section>
+
+    <section class="summary">
+
+      <p class="summary-text">
+        JavaScript and Responsive Design were the last two courses I took in the specialization degree. Both were pretty interesting, but JavaScript would be the course to introduce me to the concept of programming as it was indeed the first programming language I learnt, and boy was it confusing at first.
+      </p>
+
+    </section>
+
+    <hr class="hr-1 hr-big">
+
+    <section class="javascript">
+
+      <div class="explanation">
+
+        <h3 class="explanation-title">
+          JavaScript's <span class="legend">Power</span>
+        </h3>
+
+        <p class="explanation-text rd-text">
+          JavaScript is a programming language as mentioned before. It is used to enhance HTML pages and is commonly found embedded in HTML code. JavaScript renders web pages in an interactive and dynamic fashion and most of web applications use JavaScript one way or the other. And as a programming language, it holds so much power over structural languages like Html and CSS, manipulating and changing them on command.
+        </p>
+
+      </div>
+
+      <div class="hr-small-base"><hr class="hr-2 hr-small"></div>
+
+      <div class="onclick-base">
+
+        <p class="onclick-text rd-text">some of the small things we learned in javascript are called alert and prompts. little small things that allow for interaction with the user and when combined with manipulating the dom can be quite useful, and well fun in this situation.</p>
+
+        <div class="onclick-show">
+
+          <div class="alerts">
+
+            <button class="alert-1 but" onclick="cuteM()"><span class="alert-1-text">Click here for a secret message </span></button>
+            <button class="alert-2 but" id="thebut" onclick="dontM ()"><span class="alert-2-text">DO NOT CLICK HERE AT ALL </span></button>
+
+          </div>
+
+          <div class="prompt">
+
+           <div class="prompt-question">
+
+             <p class="prompt-text">And since we're talking about interactivity, I never got the chance to ask, what is your name ? (Don't worry this info is confidential and will only be viewed by you )</p>
+
+             <button class="prompt-button but" onclick="question()"><span class="prompt-button-text">My Name Is....</span></button>
+
+           </div>
+
+           <div class="prompt-answer" id="pa">Answer the question for a surprise!</div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <div class="hr-left-base"><hr class="hr-3 hr-left"></div>
+
+
+      <div class="jsform-base">
+
+
+        <p class="jsform-text rd-text"> The other fun thing we can do is decide on what exactly we want you to write. The input  is yours to write, but it can be whatever we want. I know that sounds exciting as if you're Thanos saying "Reality can be whatever I want", but it's mainly just used for boring forms, such as sign up forms and application forms, but still gives you the power to say " nahh I want it THIS way and THIS way only".</p>
+
+        <form class="jsform-show" id="jsform"  >
+
+         <div class="text-fields">
+
+          <input type="text" id="text-1" >
+          <label for="text-1" >Write "I"</label>
+
+          <input type="text" id="text-2" >
+          <label for="text-2">Write "Am"</label>
+
+          <input type="text" id="text-3">
+          <label for="text-3">Write "Cute"</label>
+
+         </div>
+          
+
+         <button class="but" id="actual-submit"  type="submit" name="submit" onclick=" return decider()" >Try it out</button>
+
+
+        </form>
+
+      </div>
+
+      <div class="hr-right-base"><hr class="hr-3 hr-right"></div>
+
+      <div class="morejs">
+
+        <p class="morejs-text rd-text">
+          Of course these examples aren't even considered scratching the surface of JavaScript, but rather still flying in it's atmosphere. JavaScript is a powerful programming language capable of building applications from point zero. And according to Stack Overflow's 2020 Developer Survey, JavaScript currently stands as the most commonly-used language in the world, so you could only imagine the limitless possibilities of JS. <br> I still have so much to learn when it comes to JavaScript and I'm all here for it !
+        </p>
+
+        <ul class="morejs-links">
+
+          <li>You can check some of the craziest built with JS <a target="_blank"  href="https://javascript.plainenglish.io/11-crazy-things-you-can-do-with-javascript-a23d04556fd8">here!</a></li>
+          <li>You can also check your favourite websites that were built with JS <a target="_blank"  href="https://www.lighthouselabs.ca/en/blog/10-popular-websites-built-using-javascript">here!</a></li>
+
+
+        </ul>
+
+      </div>
+
+    </section>
+
+    <hr class="hr-1 hr-big">
+
+    <section class="rd-photos">
+
+      <div class="explanation">
+
+        <h3 class="explanation-title">
+          The <span class="legend">Ease</span> Of Responsive Design
+        </h3>
+
+        <p class="explanation-text rd-text">
+          The last course I took revolved around Responsive Design, which is pretty self explanatory. It focused on the concept of the responsivity of content on different screens, thus adapting web applications to all screen sizes there is. We mainly use CSS to achieve this concept and specifically use Media-Queries to select screen sizes and adjust content as needed.
+        </p>
+
+      </div>
+
+      <div class="hr-small-base"><hr class="hr-2 hr-small"></div>
+
+    <div class="img-base">
+
+
+        <div class="img-d-base">
+
+          <img id="img-d" src="images/dv.png" alt="">
+
+        </div>
+
+      <div class="buttons">
+
+        <button id="btn1">Desktop View</button>
+        <button id="btn2">Tablet View</button>
+        <button id="btn3">Mobile View</button>
+
+      </div>
+
+      <script src="Js/main.js"></script>
+
+    </div>
+
+  </section>
+
+  <hr class="hr-1 hr-big">
+
+  <section class="bootstrap">
+
+      <div class="explanation">
+
+        <h3 class="explanation-title">
+          <span class="legend">Bootstrap</span> Framework
+        </h3>
+
+        <p class="explanation-text rd-text">
+          Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS- and JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.
+        </p>
+
+      </div>
+
+      <div class="hr-small-base"><hr class="hr-2 hr-small"></div>
+
+      <div class="bs-base navbase">
+
+        <img class="bs-img navimg" src="https://files.fm/thumb_show.php?i=a4qt4wvan" alt="">
+
+        <p class="bs-text rd-text">With the help of bootstrap classes, a navigation bar would only take mere seconds to finish, and is openly customizable in custom CSS code later on</p>
+
+
+      </div>
+
+      <div class="bs-base butbase">
+
+        <img class="bs-img butimg" src="https://files.fm/thumb_show.php?i=u9fjus49h" alt="">
+
+        <p class="bs-text rd-text">Same goes for buttons, adding multiple bootstrap classes would customize the element even more rendering custom code <span style="color: #ff0000;">"not that important"</span></p>
+
+
+      </div>
+
+      <div class="bs-base tabbase">
+
+        <img class="bs-img tabimg" src="https://files.fm/thumb_show.php?i=f45nbqwc4" alt="">
+
+        <p class="bs-text rd-text">And yes luckily for all Web Devs in the world, Bootstrap table classes exists, making it soo much easier to lay content and adjust it with just adding classes to Html elements</p>
+
+
+      </div>
+
+  </section>
+
+  <hr class="hr-1 hr-big">
+
+  <section class="next-page">
+
+    <div class="next-page-base">
+
+      <p class="next-page-text hover-tex">That's about JavaScript and Responsive Design. Both are pretty interesting concepts that I enjoyed learning and experimenting with. And being the last two courses, the last step is considered this website, the capstone of the specialization degree, marking the "before" of our final destination</p>
+
+      <button class="next-page-button"><a href="thx.html" class="link-but">Onto The Last !</a></button>
+
+    </div>
+
+  </section>
+
+  </main>
+
+  <footer>
+    <div class="logo-base">
+      <img class="logo" src="https://files.fm/thumb_show.php?i=t3u59w4xa" alt="dev logo">
+      <h1 class="logo-text"><span class="key">Nix</span> Develops</h1>
+    </div>
+
+    <div class="socials">
+      <h4>Follow me on :</h4>
+      <ul>
+        <li><a href="https://twitter.com/NixDevelops"><i class="fab fa-twitter-square fa-2x"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/hussein-zeaiter-856943229/"><i class="fab fa-linkedin fa-2x"></i></a></li>
+      </ul>
+    </div>
+
+
+  </footer>
+
+  <script src="Js/main.js"></script>
+
+  </body>
+
+</html>

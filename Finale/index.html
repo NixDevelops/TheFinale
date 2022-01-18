@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="This is the final project built by NixDevelops regarding the capstone of Web Design for Everybody by University of Michigan">
+  <link rel="icon" href="https://files.fm/thumb_show.php?i=pnsxt67pz">
+  <link rel="stylesheet" href="Css/default.css">
+  <link rel="stylesheet" href="Css/islanding.css">
+  <!--Links related to fonts--> 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Quicksand:wght@500&display=swap" rel="stylesheet">
+
+  <!--Links related to fonts--> 
+  <!--Link related to animation-->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <!--Link related to animation-->
+  <title>The Finale</title>
+</head>
+<body id="main">
+  <main>
+  <h1>
+    <span>H</span><span>e</span><span>y</span>
+    <span>T</span><span>h</span><span>e</span><span>r</span><span>e,</span>
+
+    <br>
+
+    <span>N</span><span>a</span><span>m</span><span>e'</span><span>s</span> 
+    <span class="legend" id="nix">Nix</span>, 
+
+    <br>
+
+    <span>A</span><span>n</span><span>d</span>
+    <span>I'</span><span>m</span>
+    <span>a</span> 
+    <span>W</span><span>e</span><span>b</span> 
+
+    <span>D</span><span>e</span><span>v</span><span>e</span><span>l</span><span>o</span><span>p</span><span>e</span><span>r</span>, <span class="legend" id="sorta">sorta</span>.
+
+  </h1>
+ <p>This is my final project for the "Web Design for Everybody Capstone" by University of Michigan.
+    My topic revolves around my journey throughout this specialization and the things I learnt.
+    Thank you for "linking in" and I hope you enjoy.
+</p>
+<a href="intro.html"><button id="fa2se" onmouseover="theme()" onmouseleave="themeno()">Let's get started, shall we ?</button></a>
+</main>
+
+<script>
+  function theme (){
+    
+    var x
+    x = document.getElementById("main")
+    x.classList.add("theme");
+
+    var n 
+    n = document.getElementById("nix")
+    n.classList.add("batata");
+
+    var s
+    s = document.getElementById("sorta")
+    s.classList.add("batata");
+    
+    var b
+    b = document.getElementById("fa2se")
+    b.classList.add("buttoncolor");
+  }
+
+  function themeno (){
+    
+    var x
+    x = document.getElementById("main")
+    x.classList.remove("theme");
+    
+    var n 
+    n = document.getElementById("nix")
+    n.classList.remove("batata");
+
+    var s
+    s = document.getElementById("sorta")
+    s.classList.remove("batata");
+
+    var b
+    b = document.getElementById("fa2se")
+    b.classList.remove("buttoncolor");
+  }
+</script>
+
+
+</body>
+</html>

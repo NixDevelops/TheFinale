@@ -1,0 +1,221 @@
+@media (max-width: 800px) {
+  div {
+    width: 100%;
+  }
+
+  p,
+  h1,
+  h3 {
+    border-radius: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+    transition: all 0.4s;
+  }
+
+  .intro {
+    justify-content: center;
+    height: 300px;
+  }
+
+  .intro-text {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    background-color: rgba(238, 238, 195, 0.7);
+    border-radius: 5px;
+    color: black;
+  }
+
+  #br-rd {
+    display: block;
+  }
+
+  .intro-imgs {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    text-align: center;
+  }
+
+  .js-img {
+    width: 70%;
+    position: relative;
+  }
+
+  .rd-img {
+    width: 30%;
+    left: 67%;
+    bottom: 3%;
+  }
+
+  .code-img {
+    width: 17%;
+    left: 5%;
+    bottom: 14%;
+  }
+
+  .summary-text {
+    width: 100%;
+  }
+
+  .rd-text {
+    width: 90%;
+    font-size: 130%;
+    padding: 3%;
+    line-height: 130%;
+  }
+
+  .explanation-title {
+    font-size: 150%;
+  }
+
+  /*basic stuff ends here*/
+
+  .onclick-show {
+    width: 100%;
+  }
+
+  .alerts {
+    justify-content: space-between;
+  }
+
+  .but {
+    width: 45%;
+  }
+
+  .prompt {
+    width: 100%;
+  }
+
+  .prompt-question {
+    width: 85%;
+  }
+
+  .prompt-text {
+    font-size: 130%;
+    padding: 5%;
+    line-height: 130%;
+  }
+
+  .prompt-button {
+    width: 80%;
+    box-sizing: border-box;
+    margin-bottom: 2%;
+    padding: 2%;
+  }
+
+  .prompt-answer {
+    width: 83%;
+  }
+
+  .text-fields {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2% 0%;
+  }
+
+  .text-fields label {
+    margin: 3%;
+  }
+
+  #actual-submit {
+    width: 65%;
+    padding: 3%;
+  }
+
+  .morejs-links {
+    width: 80%;
+    font-size: 120%;
+  }
+
+  .morejs-links li:first-child {
+    margin-bottom: 3%;
+  }
+
+  /*js sections end here*/
+
+  .img-d-base {
+    width: 100%;
+  }
+
+  #img-d {
+    width: 95%;
+  }
+
+  .buttons {
+    width: 100%;
+    text-align: center;
+  }
+
+  .buttons button {
+    width: 40%;
+    margin: 2%;
+  }
+
+  /*views stuff end here*/
+
+  .bs-img {
+    width: 93%;
+  }
+
+  /*bs stuff ends here*/
+
+  .next-page-base {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .next-page-text {
+    width: 80%;
+  }
+
+  .link-but {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .next-page-button {
+    width: 50%;
+    font-size: 120%;
+    transition: all 0.1s;
+    cursor: pointer;
+    margin: 7% 0 7% 0;
+    box-shadow: 3px 5px 0px #ff0000;
+    transform: translate(-3px, -3px);
+    border: 2px solid #00ffff;
+  }
+
+  .next-page-button:hover {
+    box-shadow: 3px 5px 0px #ff0000;
+    transform: translate(-3px, -3px);
+  }
+
+  .next-page-button:active {
+    box-shadow: 0px 0px 0px #fff;
+    border: 2px solid #00ffff;
+    transform: translate(0px, 0px);
+  }
+}
+
+@media (max-width: 515px) {
+  .js-img {
+    width: 90%;
+    position: relative;
+  }
+
+  .rd-img {
+    width: 43%;
+    left: 58%;
+    bottom: -10%;
+  }
+
+  .code-img {
+    width: 24%;
+    left: 0%;
+    bottom: 13%;
+  }
+}

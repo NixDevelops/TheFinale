@@ -1,0 +1,33 @@
+@media (max-width: 800px) {
+  form {
+    text-align: start;
+  }
+
+  .name-email {
+    flex-direction: column;
+  }
+
+  input {
+    margin-bottom: 7%;
+  }
+
+  textarea {
+    width: 85%;
+  }
+
+  #buto {
+    width: 60%;
+    margin: 5%;
+    box-shadow: 3px 5px 0px #ff0000;
+    transform: translate(-3px, -3px);
+  }
+
+  #buto:hover {
+    transform: translate(0px, 0px);
+    box-shadow: 0px 0px 0px #ff0000;
+  }
+
+  #buto:active {
+    transform: translate(0px, 0px);
+  }
+}

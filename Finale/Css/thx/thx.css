@@ -1,0 +1,95 @@
+.intro {
+  font-family: "DM Sans", sans-serif;
+  text-align: center;
+  margin: 2%;
+}
+
+h2 {
+  font-family: "Quicksand", sans-serif;
+  font-size: 200%;
+  margin-bottom: 2%;
+  line-height: 120%;
+}
+
+p {
+  font-size: 135%;
+  line-height: 130%;
+}
+
+.hr-small-base {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hr-small {
+  width: 50%;
+}
+
+form {
+  text-align: center;
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Quicksand", sans-serif;
+}
+
+.name-email {
+  width: 35%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2%;
+}
+
+input,
+textarea {
+  border: 1px solid #00ffff;
+  transition: all 0.5s;
+  margin-top: 1%;
+}
+
+textarea {
+  width: 40%;
+}
+
+input:focus,
+textarea:focus-visible {
+  outline: none !important;
+  border: 1px solid #ff0000;
+}
+
+.dots {
+  color: #ff0000;
+}
+
+#buto {
+  width: 17%;
+  box-sizing: border-box;
+  font-size: 120%;
+  color: #00ffff;
+  text-shadow: 1px 2px #ff0000;
+  font-weight: bolder;
+  padding: 1%;
+  text-align: center;
+  font-family: "DM Sans", sans-serif;
+  border: 0;
+  border: 2px solid #00ffff;
+  border-radius: 7px;
+  background-color: #fff;
+  transition: all 0.6s;
+  cursor: pointer;
+  margin-top: 2%;
+}
+
+#buto:hover {
+  box-shadow: 3px 5px 0px #ff0000;
+  transform: translate(-3px, -3px);
+}
+
+#buto:active {
+  box-shadow: 0px 0px 0px #fff;
+  border: 2px solid #00ffff;
+  transform: translate(0px, 0px);
+}

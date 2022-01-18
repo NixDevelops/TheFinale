@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="https://files.fm/thumb_show.php?i=pnsxt67pz">
+  <link rel="stylesheet" href="Css/default.css">
+  <link rel="stylesheet" href="Css/rewind/rewind.css">
+  <!--Links related to fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Quicksand:wght@500&display=swap" rel="stylesheet">
+  <!--Link related to animation-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <!--Link related to icons-->
+  <script src="https://kit.fontawesome.com/5d718a82e7.js" crossorigin="anonymous"></script>
+  <title>The Finale</title>
+</head>
+
+<body id="bye">
+  
+
+  <div class="bye" >
+
+    <h1>Thank You For Your Message !</h1>
+
+    <p>While we're here, why dont we <a href="index.html" id="thel" onmouseover="theme()" onmouseleave="themeno()">rewind</a> this journey ! </p>
+
+  </div>
+
+  <script>
+    function theme (){
+      
+      var x
+      x = document.getElementById("bye")
+      x.classList.add("theme");
+  
+      var n 
+      n = document.getElementById("thel")
+      n.classList.add("batata");
+  
+    }
+  
+    function themeno (){
+      
+      var x
+      x = document.getElementById("bye")
+      x.classList.remove("theme");
+      
+      var n 
+      n = document.getElementById("thel")
+      n.classList.remove("batata");
+
+    }
+  </script>
+  
+
+
+  
+</body>
+</html>
